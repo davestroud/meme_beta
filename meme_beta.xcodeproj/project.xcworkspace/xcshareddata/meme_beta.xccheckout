@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>673159A4-36FA-4A33-AB3C-2B6D2577CB31</string>
+	<key>IDESourceControlProjectName</key>
+	<string>meme_beta</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>670F452377B3AF939BC7B34BA7234E3BA127FB2E</key>
+		<string>https://github.com/davestroud/meme_beta.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>meme_beta.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>670F452377B3AF939BC7B34BA7234E3BA127FB2E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/davestroud/meme_beta.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>670F452377B3AF939BC7B34BA7234E3BA127FB2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>670F452377B3AF939BC7B34BA7234E3BA127FB2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>meme_beta</string>
+		</dict>
+	</array>
+</dict>
+</plist>
