@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -17,52 +18,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wilson" translatesAutoresizingMaskIntoConstraints="NO" id="oSu-BP-crF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cMN-nW-LtZ">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
                             </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVA-iE-fab">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <animations/>
+                                <items>
+                                    <barButtonItem title="Pick" id="3px-6i-3Mc">
+                                        <connections>
+                                            <action selector="pickAnImage:" destination="vXZ-lx-hvc" id="h5K-Nd-ynq"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
+                        <animations/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="oSu-BP-crF" secondAttribute="centerX" id="2ba-Ty-dtV"/>
-                            <constraint firstItem="oSu-BP-crF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="LiN-jK-tEb"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="oSu-BP-crF" secondAttribute="bottom" constant="85" id="XXl-9m-psI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oSu-BP-crF" secondAttribute="trailing" constant="29" id="Xoo-lV-dTi"/>
-                            <constraint firstItem="oSu-BP-crF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="65" id="gDs-ED-rjP"/>
-                            <constraint firstAttribute="centerY" secondItem="oSu-BP-crF" secondAttribute="centerY" id="yQr-Cx-brz"/>
+                            <constraint firstItem="fVA-iE-fab" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="2yy-Gy-T6e"/>
+                            <constraint firstItem="fVA-iE-fab" firstAttribute="top" secondItem="cMN-nW-LtZ" secondAttribute="bottom" constant="131" id="QHs-7f-yd4"/>
+                            <constraint firstItem="cMN-nW-LtZ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="155" id="gfu-Rx-hgn"/>
+                            <constraint firstItem="cMN-nW-LtZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="59" id="hMW-2L-PAX"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="fVA-iE-fab" secondAttribute="bottom" id="kEl-4E-znm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cMN-nW-LtZ" secondAttribute="trailing" constant="59" id="len-Oc-ggs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fVA-iE-fab" secondAttribute="trailing" constant="-16" id="o0f-W8-goC"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="oSu-BP-crF"/>
+                                <exclude reference="cMN-nW-LtZ"/>
+                                <exclude reference="fVA-iE-fab"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="2ba-Ty-dtV"/>
-                                <exclude reference="LiN-jK-tEb"/>
-                                <exclude reference="Xoo-lV-dTi"/>
-                                <exclude reference="gDs-ED-rjP"/>
-                                <exclude reference="yQr-Cx-brz"/>
-                                <exclude reference="XXl-9m-psI"/>
+                                <exclude reference="kEl-4E-znm"/>
+                                <exclude reference="2yy-Gy-T6e"/>
+                                <exclude reference="QHs-7f-yd4"/>
+                                <exclude reference="o0f-W8-goC"/>
+                                <exclude reference="gfu-Rx-hgn"/>
+                                <exclude reference="hMW-2L-PAX"/>
+                                <exclude reference="len-Oc-ggs"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="oSu-BP-crF"/>
+                                <include reference="cMN-nW-LtZ"/>
+                                <include reference="fVA-iE-fab"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="2ba-Ty-dtV"/>
-                                <include reference="LiN-jK-tEb"/>
-                                <include reference="Xoo-lV-dTi"/>
-                                <include reference="gDs-ED-rjP"/>
-                                <include reference="yQr-Cx-brz"/>
-                                <include reference="XXl-9m-psI"/>
+                                <include reference="kEl-4E-znm"/>
+                                <include reference="2yy-Gy-T6e"/>
+                                <include reference="QHs-7f-yd4"/>
+                                <include reference="o0f-W8-goC"/>
+                                <include reference="gfu-Rx-hgn"/>
+                                <include reference="hMW-2L-PAX"/>
+                                <include reference="len-Oc-ggs"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="view" destination="cMN-nW-LtZ" id="6bP-Rw-eA6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="288" y="266"/>
+            <point key="canvasLocation" x="-349.5" y="169"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="wilson" width="1224" height="1632"/>
-    </resources>
 </document>
