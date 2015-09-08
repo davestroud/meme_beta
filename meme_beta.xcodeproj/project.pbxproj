@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B1B491A1B8FE735000507AB /* UIImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B49191B8FE735000507AB /* UIImagePickerControllerDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		8BA9A04C1B57365200B0963A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9A04B1B57365200B0963A /* AppDelegate.swift */; };
 		8BA9A04E1B57365200B0963A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9A04D1B57365200B0963A /* ViewController.swift */; };
 		8BA9A0511B57365200B0963A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9A04F1B57365200B0963A /* Main.storyboard */; };
@@ -27,7 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B1B49191B8FE735000507AB /* UIImagePickerControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImagePickerControllerDelegate.swift; sourceTree = "<group>"; };
 		8BA9A0461B57365200B0963A /* meme_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meme_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA9A04A1B57365200B0963A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BA9A04B1B57365200B0963A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,14 +56,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B86D4D31B8CEAE200C68E95 /* Image Field Delegates */ = {
-			isa = PBXGroup;
-			children = (
-				8B1B49191B8FE735000507AB /* UIImagePickerControllerDelegate.swift */,
-			);
-			name = "Image Field Delegates";
-			sourceTree = "<group>";
-		};
 		8BA9A03D1B57365200B0963A = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +79,6 @@
 			children = (
 				8BA9A04B1B57365200B0963A /* AppDelegate.swift */,
 				8BA9A04D1B57365200B0963A /* ViewController.swift */,
-				8B86D4D31B8CEAE200C68E95 /* Image Field Delegates */,
 				8BA9A04F1B57365200B0963A /* Main.storyboard */,
 				8BA9A0521B57365200B0963A /* Images.xcassets */,
 				8BA9A0541B57365200B0963A /* LaunchScreen.xib */,
@@ -226,7 +215,6 @@
 			files = (
 				8BA9A04E1B57365200B0963A /* ViewController.swift in Sources */,
 				8BA9A04C1B57365200B0963A /* AppDelegate.swift in Sources */,
-				8B1B491A1B8FE735000507AB /* UIImagePickerControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

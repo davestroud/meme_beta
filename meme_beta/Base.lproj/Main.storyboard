@@ -2,8 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,59 +15,7 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cMN-nW-LtZ">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
-                            </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVA-iE-fab">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <animations/>
-                                <items>
-                                    <barButtonItem title="Pick" id="3px-6i-3Mc"/>
-                                </items>
-                            </toolbar>
-                        </subviews>
                         <animations/>
-                        <constraints>
-                            <constraint firstItem="fVA-iE-fab" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="2yy-Gy-T6e"/>
-                            <constraint firstItem="fVA-iE-fab" firstAttribute="top" secondItem="cMN-nW-LtZ" secondAttribute="bottom" constant="131" id="QHs-7f-yd4"/>
-                            <constraint firstItem="cMN-nW-LtZ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="155" id="gfu-Rx-hgn"/>
-                            <constraint firstItem="cMN-nW-LtZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="59" id="hMW-2L-PAX"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="fVA-iE-fab" secondAttribute="bottom" id="kEl-4E-znm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cMN-nW-LtZ" secondAttribute="trailing" constant="59" id="len-Oc-ggs"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fVA-iE-fab" secondAttribute="trailing" constant="-16" id="o0f-W8-goC"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="cMN-nW-LtZ"/>
-                                <exclude reference="fVA-iE-fab"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="kEl-4E-znm"/>
-                                <exclude reference="2yy-Gy-T6e"/>
-                                <exclude reference="QHs-7f-yd4"/>
-                                <exclude reference="o0f-W8-goC"/>
-                                <exclude reference="gfu-Rx-hgn"/>
-                                <exclude reference="hMW-2L-PAX"/>
-                                <exclude reference="len-Oc-ggs"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="cMN-nW-LtZ"/>
-                                <include reference="fVA-iE-fab"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="kEl-4E-znm"/>
-                                <include reference="2yy-Gy-T6e"/>
-                                <include reference="QHs-7f-yd4"/>
-                                <include reference="o0f-W8-goC"/>
-                                <include reference="gfu-Rx-hgn"/>
-                                <include reference="hMW-2L-PAX"/>
-                                <include reference="len-Oc-ggs"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
