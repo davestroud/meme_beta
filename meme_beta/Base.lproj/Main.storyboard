@@ -10,7 +10,7 @@
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="meme_beta" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-393" y="158"/>
+            <point key="canvasLocation" x="-906" y="152"/>
         </scene>
     </scenes>
 </document>
