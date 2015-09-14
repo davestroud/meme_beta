@@ -7,10 +7,17 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="meme_beta" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="meme_beta" customModuleProvider="target" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="RNa-ez-guY">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <rect key="contentStretch" x="0.20000000000000001" y="0.0" width="0.94999999999999996" height="1"/>
+                    </imageView>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-906" y="152"/>
+            <point key="canvasLocation" x="-1506" y="151"/>
         </scene>
     </scenes>
 </document>
